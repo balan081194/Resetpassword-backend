@@ -10,7 +10,7 @@ const nodemailer = require('nodemailer')
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://resetpassword-frontend-delta.vercel.app/"],
     methods: ["GET", "POST"],
     credentials: true
 }))
